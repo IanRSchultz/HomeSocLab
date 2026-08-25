@@ -1,13 +1,13 @@
-#Dashboard
+# Dashboard
 
 For the first excercise, I will be generating some suspicious activity on my windows machine. Afterwards, I will set up a dashboard on Wazuh to monitor and display relevant information about the activity.
 
 Here is the activity that generated on the windows machine:
-/images/part1/soclab1/png
+![Screenshot of windows powershell showing me creating a user, adding it to the administrator group, and deleting it](./images/part1/soclab1/png)
 
 The first thing I did after ingesting some information from the connected machines was set up a basic dashboard to display some potentially important information
 
-/images/part1/DashboardDemo.png
+![Screenshot of Wazuh Dashboard showing the following 3 elements](/images/part1/DashboardDemo.png)
 
 1. The first element is tracking the amount of failed logons for the connected Windows machine, which I tested by failing some logons. The metric is tracked by checking the archive for events with the eventID 4625, which correlates to failed logon attempts.
 
