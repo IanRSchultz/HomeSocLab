@@ -3,7 +3,7 @@
 For the first excercise, I will be generating some suspicious activity on my windows machine. Afterwards, I will set up a dashboard on Wazuh to monitor and display relevant information about the activity.
 
 Here is the activity that generated on the windows machine:
-![Screenshot of windows powershell showing me creating a user, adding it to the administrator group, and deleting it](./images/part1/soclab1/png)
+![Screenshot of windows powershell showing me creating a user, adding it to the administrator group, and deleting it](./images/part1/soclab1.png)
 
 The first thing I did after ingesting some information from the connected machines was set up a basic dashboard to display some potentially important information
 
